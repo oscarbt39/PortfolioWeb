@@ -5,7 +5,6 @@ on:
     branches:
       - main # 👈 Cambia a 'master' si tu rama se llama así
 
-# Permisos necesarios para que la Action oficial publique en Pages
 permissions:
   contents: read
   pages: write
@@ -19,7 +18,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps: deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }} # 👈 ¡Corregido el punto aquí!
     runs-on: ubuntu-latest
     steps:
       - name: Checkout del código
@@ -31,7 +30,7 @@ jobs:
       - name: Subir artefacto compilado
         uses: actions/upload-pages-artifact@v3
         with:
-          # Pon aquí la ruta exacta a tu carpeta compilada
+          # Pon aquí la ruta exacta a tu carpeta compilada dentro de dist
           path: 'dist/app-angular' 
 
       - name: Desplegar en GitHub Pages
