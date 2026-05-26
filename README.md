@@ -1,4 +1,4 @@
-![Deploy to GitHub Pages](https://github.com/oscarbt39/PortfolioWeb/actions/workflows/deploy.yml/badge.badge.svg)
+![Deploy to GitHub Pages](https://github.com/oscarbt39/PortfolioWeb/actions/workflows/deploy.yml/badge.svg)
 
 A modern, responsive personal portfolio designed to showcase my projects, skills, and professional journey. 
 
