@@ -27,6 +27,9 @@ jobs:
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v4
 
+      - name: Crear 404.html para rutas de Angular
+        run: cp dist/app-angular/browser/index.html dist/app-angular/browser/404.html
+
       - name: Subir artefacto de Angular
         uses: actions/upload-pages-artifact@v3
         with:
