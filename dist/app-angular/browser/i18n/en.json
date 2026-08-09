@@ -1,0 +1,144 @@
+{
+  "NAV":
+  {
+    "ABOUTME": "About me",
+    "PROJECTS": "Projects",
+    "MUSEUM": "Museum (Games)",
+    "EDUCATION": "Education",
+    "EXPERIENCE": "Experience"
+  },
+  "HOME": {
+    "HERO": {
+      "BADGE": "Available for work",
+      "GREETING": "Hello, I'm",
+      "NAME": "Óscar Borrero Testón",
+      "ROLE": "Full-Stack Developer",
+      "DESCRIPTION_1": "Full-stack software developer, specialized in",
+      "DESCRIPTION_2": "ecosystems, deepening in automation and AI integration with workflows like",
+      "DESCRIPTION_3": "I have solid knowledge of DevOps with",
+      "DESCRIPTION_4": "and I have used",
+      "DESCRIPTION_5": "for frontend in numerous projects.",
+      "CTA_BTN": "Contact me"
+    },
+    "STACK": {
+      "TITLE": "My Tech Stack",
+      "SUBTITLE": "The tools and technologies I use",
+      "BACKEND": "Backend",
+      "FRONTEND": "Frontend & Mobile",
+      "DEVOPS": "DevOps & Aut.",
+      "GAMEDEV": "Game Dev",
+      "DEV_2D_3D": "2D / 3D Development"
+    },
+    "CONTACT": {
+      "TITLE": "Let's Talk!",
+      "SUBTITLE": "I'm open to new opportunities, interesting projects, or just chatting about code. Get in touch!",
+      "EMAIL": "Email",
+      "LINKEDIN": "LinkedIn",
+      "GITHUB": "GitHub"
+    }
+  },
+  "PROJECTS": {
+    "CODE_BTN": "View on GitHub",
+    "ITEMS": {
+      "SAASOMATIC": {
+        "TITLE": "SaaS-O-Matic",
+        "DESCRIPTION": "Technical challenge for Roams selection process: a billing and simulation ecosystem with SQLite persistence, Node backend, and Angular frontend—fully responsive, reactive, and dockerized."
+      },
+      "MOCKENDPOINT": {
+        "TITLE": "MockEndpoint",
+        "DESCRIPTION": "Fake endpoint generation system (mocks) powered by AI using n8n and a Compose with Kotlin frontend."
+      },
+      "PORTFOLIO": {
+        "TITLE": "PortfolioWeb",
+        "DESCRIPTION": "This portfolio—an SPA built with Angular 17+, featuring WebGL integration in the museum section, fully responsive, with a CI/CD pipeline for seamless deployment."
+      },
+      "APPLERGY": {
+        "TITLE": "Applergy",
+        "DESCRIPTION": "Cross-platform application with an Angular (TailwindCSS) Admin panel for CRUD operations, an Android native mobile client in Kotlin, and a backend abstracted with Firebase (Auth & Firestore)."
+      }
+    }
+  },
+  "GAMES": {
+    "INTRO": {
+      "PART_1": "This little game is essentially a bridge—an interactive museum featuring other games made by me that will continuously expand.",
+      "INSTRUCTION_MOVE": "You can move with the arrow keys",
+      "PART_2": "and",
+      "INSTRUCTION_INTERACT": "interact with the booths using the X key",
+      "PART_3": "when nearby. To close the panels, simply walk away or press X again. All assets, including code, sprites, and designs, were made by me—its sole purpose is to make exploring my projects more fun.",
+      "ENJOY": "Enjoy!"
+    },
+    "MOBILE_WARNING": {
+      "TITLE": "Interactive Museum available on PC",
+      "DESCRIPTION": "This game is designed to be played with a keyboard. Due to general performance and controls, it is not available on mobile devices. Visit from a desktop computer to give it a try!"
+    }
+  },
+  "EDUCATION": {
+    "TITLE": "Academic Education",
+    "TECH_LABEL": "Main technologies:",
+    "ITEMS": {
+      "GAME_DEV": {
+        "DEGREE": "Specialization in Game Development and Virtual Reality",
+        "INSTITUTION": "I.E.S Valle del Jerte (Plasencia)"
+      },
+      "DAM": {
+        "DEGREE": "Higher Degree in Multiplatform Application Development",
+        "INSTITUTION": "I.E.S Valle del Jerte (Plasencia)"
+      },
+      "SMR": {
+        "DEGREE": "Professional Degree in Microcomputer Systems and Networks",
+        "INSTITUTION": "I.E.S.O Vía Dalmacia"
+      }
+    },
+    "CERTIFICATIONS": {
+      "TITLE": "Certifications",
+      "ISSUED_BY": "Issued by",
+      "VERIFY_LINK": "View credential",
+      "MONTHS": {
+        "APRIL": "April"
+      }
+    }
+  },
+  "EXPERIENCE": {
+    "SECTION_TITLE": "Experience",
+    "PRESENT": "Present",
+    "MONTHS": "months",
+    "ITEMS": {
+      "PERSONAL": {
+        "ROLE": "Full Stack Developer | Game Developer",
+        "MODALITY": "Indie Development",
+        "COMPANY": "Personal Projects",
+        "PERIOD": "June 2025 — Present",
+        "TASKS": {
+          "UI_UX": "UI/UX Design",
+          "BACKEND": "Backend business logic development",
+          "GAMES": "Game planning, design, and development",
+          "N8N": "Automation through n8n workflows",
+          "GIT": "Agile methodology collaboration and version control with Git."
+        }
+      },
+      "ADVISER": {
+        "ROLE": "Full Stack Developer",
+        "MODALITY": "Internship",
+        "COMPANY": "Adviser Cloud",
+        "PERIOD": "March 2025 — June 2025",
+        "DURATION": "3 months",
+        "TASKS": {
+          "ANGULAR": "Development and optimization of SPA components using Angular and clean architectures.",
+          "N8N": "Automation through n8n workflows",
+          "GIT": "Agile methodology collaboration and version control with Git."
+        }
+      },
+      "FLUTURE": {
+        "ROLE": "Junior Developer",
+        "MODALITY": "Internship",
+        "COMPANY": "Fluture Data",
+        "PERIOD": "March 2023 — June 2023",
+        "DURATION": "3 months",
+        "TASKS": {
+          "FLUTTER": "Maintenance collaboration for hybrid applications using Flutter",
+          "FIREBASE": "Implementation of real-time databases and authentication services with Firebase."
+        }
+      }
+    }
+  }
+}
